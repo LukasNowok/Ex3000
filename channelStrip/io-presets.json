@@ -1,0 +1,199 @@
+{
+	"pattrstorage" : 	{
+		"name" : "io",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"amxd~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Pitch & Echo.amxd",
+							"origin" : "Pitch & Echo.amxd",
+							"type" : "amxd",
+							"subtype" : "Undefined",
+							"embed" : 1,
+							"snapshot" : 							{
+								"name" : "Pitch & Echo.amxd",
+								"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Pitch & Echo.amxd",
+								"valuedictionary" : 								{
+									"parameter_values" : 									{
+										"Dry/Wet" : 74.0,
+										"EchoEnable" : 0.0,
+										"EchoFeedback" : 49.656189,
+										"EchoMode" : 0.0,
+										"EchoSync" : 13.0,
+										"EchoTime" : 999.238831,
+										"Gain" : 0.0,
+										"Glide" : 10000.0,
+										"Latency" : 1.0,
+										"Quality" : 0.0,
+										"Transp" : 0.0,
+										"VibDepth" : 25.0,
+										"VibDirection" : 0.0,
+										"VibEnable" : 0.0,
+										"VibNoiseAmount" : 50.0,
+										"VibNoiseEnable" : 0.0,
+										"VibOscAmount" : 50.0,
+										"VibOscEnable" : 1.0,
+										"VibRate" : 38.073074
+									}
+
+								}
+
+							}
+
+						}
+ ],
+					"dhm" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "ln_dhm_m4l.amxd",
+							"origin" : "ln_dhm_m4l.amxd",
+							"type" : "amxd",
+							"subtype" : "Undefined",
+							"embed" : 1,
+							"snapshot" : 							{
+								"name" : "ln_dhm_m4l.amxd",
+								"origname" : "~/Documents/EXP/dev/exp/audioModule/dhm/ln_dhm_m4l.amxd",
+								"valuedictionary" : 								{
+									"parameter_values" : 									{
+										"Glide" : 0.0,
+										"VibDepth" : 0.0,
+										"VibDirection" : 0.0,
+										"VibEnable" : 0.0,
+										"VibNoiseAmount" : 0.0,
+										"VibNoiseEnable" : 0.0,
+										"VibOscAmount" : 0.0,
+										"VibOscEnable" : 0.0,
+										"VibRate" : 0.0,
+										"cp1" : 0.0,
+										"cp2" : 4.645669,
+										"feedback" : 0.0,
+										"pitchfactor" : 0.578583,
+										"vibratodepth" : 0.0,
+										"vibratospeed" : 6.692913
+									}
+
+								}
+
+							}
+
+						}
+ ],
+					"dhm::dhm" : [ -1 ],
+					"vc::audio-from" : [ "inlet" ],
+					"vc::audio-to" : [ "send::dhm" ],
+					"vc::audioTo::setSendName" : [  ],
+					"vc::audioFrom::setReceiveName" : [  ],
+					"vc::channel-active" : [  ],
+					"vc::dyn-active" : [  ],
+					"vc::eq-active" : [  ],
+					"vc::gain" : [  ],
+					"vc::solo" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"amxd~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Pitch & Echo.amxd",
+							"origin" : "Pitch & Echo.amxd",
+							"type" : "amxd",
+							"subtype" : "Undefined",
+							"embed" : 1,
+							"snapshot" : 							{
+								"name" : "Pitch & Echo.amxd",
+								"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Pitch & Echo.amxd",
+								"valuedictionary" : 								{
+									"parameter_values" : 									{
+										"Dry/Wet" : 74.0,
+										"EchoEnable" : 0.0,
+										"EchoFeedback" : 49.656189,
+										"EchoMode" : 0.0,
+										"EchoSync" : 13.0,
+										"EchoTime" : 999.238831,
+										"Gain" : 0.0,
+										"Glide" : 10000.0,
+										"Latency" : 1.0,
+										"Quality" : 0.0,
+										"Transp" : 0.0,
+										"VibDepth" : 25.0,
+										"VibDirection" : 0.0,
+										"VibEnable" : 0.0,
+										"VibNoiseAmount" : 50.0,
+										"VibNoiseEnable" : 0.0,
+										"VibOscAmount" : 50.0,
+										"VibOscEnable" : 1.0,
+										"VibRate" : 38.073074
+									}
+
+								}
+
+							}
+
+						}
+ ],
+					"dhm" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "ln_dhm_m4l.amxd",
+							"origin" : "ln_dhm_m4l.amxd",
+							"type" : "amxd",
+							"subtype" : "Undefined",
+							"embed" : 1,
+							"snapshot" : 							{
+								"name" : "ln_dhm_m4l.amxd",
+								"origname" : "~/Documents/EXP/dev/exp/audioModule/dhm/ln_dhm_m4l.amxd",
+								"valuedictionary" : 								{
+									"parameter_values" : 									{
+										"Glide" : 0.0,
+										"VibDepth" : 0.0,
+										"VibDirection" : 0.0,
+										"VibEnable" : 0.0,
+										"VibNoiseAmount" : 0.0,
+										"VibNoiseEnable" : 0.0,
+										"VibOscAmount" : 0.0,
+										"VibOscEnable" : 0.0,
+										"VibRate" : 0.0,
+										"cp1" : 0.0,
+										"cp2" : 4.645669,
+										"feedback" : 0.0,
+										"pitchfactor" : 0.578583,
+										"vibratodepth" : 0.0,
+										"vibratospeed" : 6.692913
+									}
+
+								}
+
+							}
+
+						}
+ ],
+					"dhm::dhm" : [ -1 ],
+					"vc::audio-from" : [ "inlet" ],
+					"vc::audio-to" : [ "send::echo" ],
+					"vc::audioTo::setSendName" : [  ],
+					"vc::audioFrom::setReceiveName" : [  ],
+					"vc::channel-active" : [  ],
+					"vc::dyn-active" : [  ],
+					"vc::eq-active" : [  ],
+					"vc::gain" : [  ],
+					"vc::solo" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
