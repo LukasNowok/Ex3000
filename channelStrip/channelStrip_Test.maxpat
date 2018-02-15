@@ -344,10 +344,10 @@
 								"parameter_values" : 								{
 									"Dry/Wet" : 74.0,
 									"EchoEnable" : 0.0,
-									"EchoFeedback" : 50.0,
+									"EchoFeedback" : 50.342716,
 									"EchoMode" : 0.0,
 									"EchoSync" : 13.0,
-									"EchoTime" : 500.0,
+									"EchoTime" : 185.767609,
 									"Gain" : 0.0,
 									"Glide" : 10000.0,
 									"Latency" : 1.0,
@@ -360,7 +360,7 @@
 									"VibNoiseEnable" : 0.0,
 									"VibOscAmount" : 50.0,
 									"VibOscEnable" : 1.0,
-									"VibRate" : 4.0
+									"VibRate" : 0.002189
 								}
 
 							}
@@ -385,10 +385,10 @@
 											"parameter_values" : 											{
 												"Dry/Wet" : 74.0,
 												"EchoEnable" : 0.0,
-												"EchoFeedback" : 50.0,
+												"EchoFeedback" : 50.342716,
 												"EchoMode" : 0.0,
 												"EchoSync" : 13.0,
-												"EchoTime" : 500.0,
+												"EchoTime" : 185.767609,
 												"Gain" : 0.0,
 												"Glide" : 10000.0,
 												"Latency" : 1.0,
@@ -401,7 +401,7 @@
 												"VibNoiseEnable" : 0.0,
 												"VibOscAmount" : 50.0,
 												"VibOscEnable" : 1.0,
-												"VibRate" : 4.0
+												"VibRate" : 0.002189
 											}
 
 										}
@@ -474,10 +474,10 @@
 										"parameter_values" : 										{
 											"Dry/Wet" : 74.0,
 											"EchoEnable" : 0.0,
-											"EchoFeedback" : 50.0,
+											"EchoFeedback" : 50.342716,
 											"EchoMode" : 0.0,
 											"EchoSync" : 13.0,
-											"EchoTime" : 500.0,
+											"EchoTime" : 185.767609,
 											"Gain" : 0.0,
 											"Glide" : 10000.0,
 											"Latency" : 1.0,
@@ -490,44 +490,7 @@
 											"VibNoiseEnable" : 0.0,
 											"VibOscAmount" : 50.0,
 											"VibOscEnable" : 1.0,
-											"VibRate" : 4.0
-										}
-
-									}
-
-								}
-
-							}
- ],
-						"dhm" : [ 							{
-								"filetype" : "C74Snapshot",
-								"version" : 2,
-								"minorversion" : 0,
-								"name" : "ln_dhm_m4l.amxd",
-								"origin" : "ln_dhm_m4l.amxd",
-								"type" : "amxd",
-								"subtype" : "Undefined",
-								"embed" : 1,
-								"snapshot" : 								{
-									"name" : "ln_dhm_m4l.amxd",
-									"origname" : "~/Documents/EXP/dev/exp/audioModule/dhm/ln_dhm_m4l.amxd",
-									"valuedictionary" : 									{
-										"parameter_values" : 										{
-											"Glide" : 0.0,
-											"VibDepth" : 0.0,
-											"VibDirection" : 0.0,
-											"VibEnable" : 0.0,
-											"VibNoiseAmount" : 0.0,
-											"VibNoiseEnable" : 0.0,
-											"VibOscAmount" : 0.0,
-											"VibOscEnable" : 0.0,
-											"VibRate" : 0.0,
-											"cp1" : 0.0,
-											"cp2" : 4.645669,
-											"feedback" : 0.0,
-											"pitchfactor" : 0.578583,
-											"vibratodepth" : 0.0,
-											"vibratospeed" : 6.692913
+											"VibRate" : 0.002189
 										}
 
 									}
@@ -540,7 +503,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u045000853"
+					"varname" : "u689000915"
 				}
 
 			}
@@ -551,7 +514,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 314.0, 222.0, 5.0, 100.0 ]
+					"patching_rect" : [ 341.0, 196.0, 5.0, 100.0 ]
 				}
 
 			}
@@ -587,21 +550,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
+									"basictuning" : [ 440 ],
+									"followglobaltempo" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"formant" : [ 1.0 ],
 									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"slurtime" : [ 0.0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
 									"mode" : [ "basic" ],
 									"pitchcorrection" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"slurtime" : [ 0.0 ],
-									"basictuning" : [ 440 ],
-									"play" : [ 0 ],
 									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
-									"formantcorrection" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"quality" : [ "basic" ],
-									"originaltempo" : [ 120.0 ],
-									"timestretch" : [ 0 ]
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ]
 								}
 
 							}
@@ -647,21 +610,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
+									"basictuning" : [ 440 ],
+									"followglobaltempo" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"formant" : [ 1.0 ],
 									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"slurtime" : [ 0.0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
 									"mode" : [ "basic" ],
 									"pitchcorrection" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"slurtime" : [ 0.0 ],
-									"basictuning" : [ 440 ],
-									"play" : [ 0 ],
 									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
-									"formantcorrection" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"quality" : [ "basic" ],
-									"originaltempo" : [ 120.0 ],
-									"timestretch" : [ 0 ]
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ]
 								}
 
 							}
@@ -675,134 +638,6 @@
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"patching_rect" : [ 35.0, 14.0, 150.0, 30.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autosave" : 1,
-					"bgmode" : 1,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 4,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 333.0, 222.0, 250.0, 196.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 250.0, 196.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "amxd~",
-							"parameter_shortname" : "amxd~",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"active" : 0,
-						"annotation_name" : "",
-						"parameter_enable" : 1,
-						"patchername" : "ln_dhm_m4l.amxd",
-						"patchername_fallback" : "~/Documents/EXP/dev/exp/audioModule/dhm/ln_dhm_m4l.amxd"
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "max~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"name" : "ln_dhm_m4l.amxd",
-							"origname" : "~/Documents/EXP/dev/exp/audioModule/dhm/ln_dhm_m4l.amxd",
-							"valuedictionary" : 							{
-								"parameter_values" : 								{
-									"Glide" : 0.0,
-									"VibDepth" : 0.0,
-									"VibDirection" : 0.0,
-									"VibEnable" : 0.0,
-									"VibNoiseAmount" : 0.0,
-									"VibNoiseEnable" : 0.0,
-									"VibOscAmount" : 0.0,
-									"VibOscEnable" : 0.0,
-									"VibRate" : 0.0,
-									"cp1" : 0.0,
-									"cp2" : 4.645669,
-									"feedback" : 0.0,
-									"pitchfactor" : 0.578583,
-									"vibratodepth" : 0.0,
-									"vibratospeed" : 6.692913
-								}
-
-							}
-
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "ln_dhm_m4l.amxd",
-									"origin" : "ln_dhm_m4l.amxd",
-									"type" : "amxd",
-									"subtype" : "Undefined",
-									"embed" : 0,
-									"snapshot" : 									{
-										"name" : "ln_dhm_m4l.amxd",
-										"origname" : "~/Documents/EXP/dev/exp/audioModule/dhm/ln_dhm_m4l.amxd",
-										"valuedictionary" : 										{
-											"parameter_values" : 											{
-												"Glide" : 0.0,
-												"VibDepth" : 0.0,
-												"VibDirection" : 0.0,
-												"VibEnable" : 0.0,
-												"VibNoiseAmount" : 0.0,
-												"VibNoiseEnable" : 0.0,
-												"VibOscAmount" : 0.0,
-												"VibOscEnable" : 0.0,
-												"VibRate" : 0.0,
-												"cp1" : 0.0,
-												"cp2" : 4.645669,
-												"feedback" : 0.0,
-												"pitchfactor" : 0.578583,
-												"vibratodepth" : 0.0,
-												"vibratospeed" : 6.692913
-											}
-
-										}
-
-									}
-,
-									"fileref" : 									{
-										"name" : "ln_dhm_m4l.amxd",
-										"filename" : "ln_dhm_m4l.amxd.maxsnap",
-										"filepath" : "~/Documents/Max 7/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "50feabef536202ab2f95b91a1a1380c6"
-									}
-
-								}
- ]
-						}
-
-					}
-,
-					"style" : "",
-					"text" : "amxd~ ln_dhm_m4l.amxd",
-					"varname" : "dhm",
-					"viewvisibility" : 1
 				}
 
 			}
@@ -853,13 +688,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -928,108 +756,33 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"order" : 0,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"order" : 1,
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
+			"obj-7::obj-5::obj-4" : [ "receive-name", "receive-name", 0 ],
 			"obj-7::obj-6" : [ "dyn-active", "dyn", 0 ],
+			"obj-7::obj-30" : [ "qlist", "Qlist", 0 ],
+			"obj-7::obj-19::obj-18" : [ "amxd~[4]", "amxd~", 0 ],
+			"obj-7::obj-4" : [ "setname", "Setname", 0 ],
+			"obj-7::obj-9::obj-6" : [ "matrix-channel[1]", "matrix-channel", 0 ],
+			"obj-7::obj-5::obj-61" : [ "adc-channel", "adc-channel", 0 ],
+			"obj-7::obj-9::obj-56" : [ "audio-to", "audio-to", 0 ],
+			"obj-7::obj-3" : [ "eq-active", "eq", 0 ],
+			"obj-7::obj-5::obj-6" : [ "matrix-channel", "matrix-channel", 0 ],
+			"obj-14" : [ "amxd~[3]", "amxd~", 0 ],
+			"obj-7::obj-116" : [ "gain", "Gain", 0 ],
+			"obj-7::obj-115" : [ "channel-active", "ch-active", 0 ],
 			"obj-7::obj-9::obj-4" : [ "send-name", "receive-name", 0 ],
 			"obj-7::obj-9::obj-61" : [ "dac-channel", "dac-channel", 0 ],
-			"obj-7::obj-116" : [ "gain", "Gain", 0 ],
-			"obj-7::obj-9::obj-6" : [ "matrix-channel[1]", "matrix-channel", 0 ],
-			"obj-14" : [ "amxd~[3]", "amxd~", 0 ],
-			"obj-7::obj-30" : [ "qlist", "Qlist", 0 ],
-			"obj-7::obj-3" : [ "eq-active", "eq", 0 ],
-			"obj-7::obj-114" : [ "solo", "Solo", 0 ],
-			"obj-7::obj-5::obj-6" : [ "matrix-channel", "matrix-channel", 0 ],
 			"obj-7::obj-5::obj-56" : [ "audio-from", "audio-from", 0 ],
-			"obj-7::obj-115" : [ "channel-active", "ch-active", 0 ],
-			"obj-7::obj-4" : [ "setname", "Setname", 0 ],
-			"obj-1" : [ "amxd~", "amxd~", 0 ],
-			"obj-7::obj-9::obj-56" : [ "audio-to", "audio-to", 0 ],
-			"obj-7::obj-5::obj-4" : [ "receive-name", "receive-name", 0 ],
-			"obj-7::obj-5::obj-61" : [ "adc-channel", "adc-channel", 0 ],
-			"obj-7::obj-19::obj-18" : [ "amxd~[4]", "amxd~", 0 ]
+			"obj-7::obj-114" : [ "solo", "Solo", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "ln_dhm_m4l.amxd.maxsnap",
-				"bootpath" : "~/Documents/Max 7/Snapshots",
-				"patcherrelativepath" : "../../../../Max 7/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ln_dhm_m4l.amxd",
-				"bootpath" : "~/Documents/EXP/dev/exp/audioModule/dhm",
-				"patcherrelativepath" : "../audioModule/dhm",
-				"type" : "amxd",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "msp-v.maxpat",
-				"bootpath" : "~/Documents/EXP/dev/exp/virtualEx_old/def_max7_64bit/VirtualEx Max7/sub/max-abstractions/VirtualEx-sub/general",
-				"patcherrelativepath" : "../virtualEx_old/def_max7_64bit/VirtualEx Max7/sub/max-abstractions/VirtualEx-sub/general",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "msp-store.maxpat",
-				"bootpath" : "~/Documents/EXP/dev/exp/virtualEx_old/def_max7_64bit/VirtualEx Max7/sub/max-abstractions/VirtualEx-sub/general",
-				"patcherrelativepath" : "../virtualEx_old/def_max7_64bit/VirtualEx Max7/sub/max-abstractions/VirtualEx-sub/general",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "VirtualEx.envelope.maxpat",
-				"bootpath" : "~/Documents/EXP/dev/exp/virtualEx_old/def_max7_64bit/VirtualEx Max7/sub/max-abstractions/VirtualEx-sub/general",
-				"patcherrelativepath" : "../virtualEx_old/def_max7_64bit/VirtualEx Max7/sub/max-abstractions/VirtualEx-sub/general",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sine.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "random.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "updown.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "up.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "down.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "anton.aif",
 				"bootpath" : "C74:/media/msp",
 				"type" : "AIFF",
@@ -1037,7 +790,7 @@
 			}
 , 			{
 				"name" : "channel.maxpat",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1056,42 +809,42 @@
 			}
 , 			{
 				"name" : "audioFrom.maxpat",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "forwardSource.js",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "formatSource.js",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audioTo.maxpat",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "forwardDestination.js",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "formatDestination.js",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -1123,10 +876,6 @@
 				"name" : "M4L.vdelay~.maxpat",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "dhm89~.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,

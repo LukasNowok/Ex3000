@@ -140,7 +140,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 60.0, 140.0, 82.0, 52.0 ],
+					"patching_rect" : [ 60.0, 140.5, 82.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, -1.0, 82.0, 52.0 ],
 					"varname" : "audioFrom",
@@ -406,8 +406,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -417,8 +417,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -430,6 +430,7 @@
 								"default" : 								{
 									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -438,8 +439,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -855,8 +855,8 @@
 , 											{
 												"name" : "Default M4L",
 												"default" : 												{
-													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 													"fontsize" : [ 11.0 ],
+													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 													"fontname" : [ "Arial Bold" ]
 												}
 ,
@@ -866,8 +866,8 @@
 , 											{
 												"name" : "Default M4L Poletti",
 												"default" : 												{
-													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 													"fontsize" : [ 10.0 ],
+													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 													"fontname" : [ "Arial Bold" ]
 												}
 ,
@@ -879,6 +879,7 @@
 												"default" : 												{
 													"fontface" : [ 1 ],
 													"fontsize" : [ 11.0 ],
+													"fontname" : [ "Arial" ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -887,8 +888,7 @@
 														"angle" : 270.0,
 														"proportion" : 0.39
 													}
-,
-													"fontname" : [ "Arial" ]
+
 												}
 ,
 												"parentstyle" : "",
@@ -1079,7 +1079,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 719.0, 704.0, 38.0, 6.0 ],
+					"patching_rect" : [ 682.5, 703.0, 38.0, 6.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 300.0, 73.0, 5.0 ]
 				}
@@ -1271,7 +1271,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 60.0, 335.0, 40.0, 21.0 ],
+					"patching_rect" : [ 60.0, 314.0, 40.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1292,7 +1292,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 719.0, 697.0, 38.0, 6.0 ],
+					"patching_rect" : [ 682.5, 696.0, 38.0, 6.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 50.0, 73.0, 5.0 ]
 				}
@@ -1662,7 +1662,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 60.0, 276.0, 40.0, 21.0 ],
+					"patching_rect" : [ 60.0, 255.0, 40.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1685,7 +1685,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 81.0, 306.0, 40.0, 20.0 ],
+					"patching_rect" : [ 81.0, 285.0, 40.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 123.0, 30.0, 13.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1717,7 +1717,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 81.0, 248.0, 40.0, 20.0 ],
+					"patching_rect" : [ 81.0, 227.0, 40.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 105.0, 30.0, 13.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2679,8 +2679,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -2690,8 +2690,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -2703,6 +2703,7 @@
 								"default" : 								{
 									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2711,8 +2712,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2839,7 +2839,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u260006067"
+					"varname" : "u896001503"
 				}
 
 			}
@@ -3509,8 +3509,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -3520,8 +3520,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -3533,6 +3533,7 @@
 								"default" : 								{
 									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3541,8 +3542,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -4575,8 +4575,8 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -4586,8 +4586,8 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -4599,6 +4599,7 @@
 								"default" : 								{
 									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4607,8 +4608,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontname" : [ "Arial" ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -5064,22 +5064,22 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-56" : [ "audio-from", "audio-from", 0 ],
-			"obj-3" : [ "eq-active", "eq", 0 ],
-			"obj-30" : [ "qlist", "Qlist", 0 ],
-			"obj-5::obj-61" : [ "adc-channel", "adc-channel", 0 ],
-			"obj-115" : [ "channel-active", "ch-active", 0 ],
 			"obj-4" : [ "setname", "Setname", 0 ],
-			"obj-9::obj-4" : [ "send-name", "receive-name", 0 ],
-			"obj-9::obj-61" : [ "dac-channel", "dac-channel", 0 ],
-			"obj-19::obj-18" : [ "amxd~", "amxd~", 0 ],
 			"obj-5::obj-4" : [ "receive-name", "receive-name", 0 ],
 			"obj-116" : [ "gain", "Gain", 0 ],
 			"obj-6" : [ "dyn-active", "dyn", 0 ],
-			"obj-9::obj-6" : [ "matrix-channel[1]", "matrix-channel", 0 ],
+			"obj-19::obj-18" : [ "amxd~", "amxd~", 0 ],
+			"obj-9::obj-56" : [ "audio-to", "audio-to", 0 ],
+			"obj-5::obj-61" : [ "adc-channel", "adc-channel", 0 ],
+			"obj-9::obj-4" : [ "send-name", "receive-name", 0 ],
 			"obj-114" : [ "solo", "Solo", 0 ],
-			"obj-5::obj-6" : [ "matrix-channel", "matrix-channel", 0 ],
-			"obj-9::obj-56" : [ "audio-to", "audio-to", 0 ]
+			"obj-3" : [ "eq-active", "eq", 0 ],
+			"obj-5::obj-56" : [ "audio-from", "audio-from", 0 ],
+			"obj-9::obj-6" : [ "matrix-channel[1]", "matrix-channel", 0 ],
+			"obj-115" : [ "channel-active", "ch-active", 0 ],
+			"obj-9::obj-61" : [ "dac-channel", "dac-channel", 0 ],
+			"obj-30" : [ "qlist", "Qlist", 0 ],
+			"obj-5::obj-6" : [ "matrix-channel", "matrix-channel", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -5096,42 +5096,42 @@
 			}
 , 			{
 				"name" : "audioFrom.maxpat",
-				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "forwardSource.js",
-				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "formatSource.js",
-				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audioTo.maxpat",
-				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "forwardDestination.js",
-				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "formatDestination.js",
-				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -5158,8 +5158,8 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -5169,8 +5169,8 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
@@ -5182,6 +5182,7 @@
 				"default" : 				{
 					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5190,8 +5191,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"fontname" : [ "Arial" ]
+
 				}
 ,
 				"parentstyle" : "",
