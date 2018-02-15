@@ -1424,6 +1424,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-13",
@@ -1685,7 +1686,16 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-18", 1 ],
+									"order" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
+									"order" : 1,
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -2921,7 +2931,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u680005421"
+					"varname" : "u371008249"
 				}
 
 			}
@@ -5202,8 +5212,8 @@
 			"obj-5::obj-4" : [ "receive-name", "receive-name", 0 ],
 			"obj-3" : [ "eq-active", "eq", 0 ],
 			"obj-5::obj-56" : [ "audio-from", "audio-from", 0 ],
-			"obj-4" : [ "setname", "Setname", 0 ],
 			"obj-30" : [ "qlist", "Qlist", 0 ],
+			"obj-4" : [ "setname", "Setname", 0 ],
 			"obj-115" : [ "channel-active", "ch-active", 0 ],
 			"obj-9::obj-6" : [ "matrix-channel[1]", "matrix-channel", 0 ],
 			"obj-9::obj-4" : [ "send-name", "receive-name", 0 ],

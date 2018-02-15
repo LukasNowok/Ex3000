@@ -23,8 +23,8 @@ function anything()
 				this.patcher.getnamed("matrix-channel").message(parseInt(argList[1]));
 			};
 			break;
-		case "outlet":
-			{this.patcher.getnamed("audio-to").message("symbol","outlet");};
+		case "direct":
+			{this.patcher.getnamed("audio-to").message("symbol","direct");};
 			break;
 	}
 }
