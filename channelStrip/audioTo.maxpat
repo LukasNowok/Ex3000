@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 373.583344, 397.0, 86.0, 37.0 ],
-					"presentation_rect" : [ 362.0, 406.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "externe eingabe (über pattrstorage etc)"
 				}
@@ -86,8 +85,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 349.416687, 360.0, 92.166656, 35.0 ],
-					"restore" : [ "fro" ],
 					"saved_object_attributes" : 					{
+						"initial" : [ "foo" ],
 						"parameter_enable" : 0
 					}
 ,
@@ -1582,7 +1581,7 @@
 							"parameter_shortname" : "receive-name",
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_initial" : [ "foo" ],
+							"parameter_initial" : [ "name" ],
 							"parameter_invisible" : 1
 						}
 
@@ -1940,22 +1939,22 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-6" : [ "matrix-channel[1]", "matrix-channel", 0 ],
 			"obj-4" : [ "send-name", "receive-name", 0 ],
 			"obj-61" : [ "dac-channel", "dac-channel", 0 ],
+			"obj-6" : [ "matrix-channel[1]", "matrix-channel", 0 ],
 			"obj-56" : [ "audio-to", "audio-to", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "forwardDestination.js",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "formatDestination.js",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

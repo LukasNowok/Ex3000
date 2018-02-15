@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 825.0, 78.0, 835.0, 788.0 ],
+		"rect" : [ 34.0, 78.0, 1030.0, 811.0 ],
 		"bgcolor" : [ 0.556646, 0.551429, 0.519943, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -82,9 +82,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 587.0, 542.5, 321.0, 31.0 ],
+					"patching_rect" : [ 587.0, 566.5, 327.0, 31.0 ],
 					"style" : "",
-					"text" : "translate local (excluding subpatchers) pattr-data to global (including subs) sends"
+					"text" : "translate local (i.e. excluding subpatchers) pattr-data to global (i.e. including subs) sends"
 				}
 
 			}
@@ -117,7 +117,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 61.0, 612.5, 76.0, 53.0 ],
+					"patching_rect" : [ 61.0, 612.0, 81.0, 53.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 301.0, 76.0, 53.0 ],
 					"varname" : "audioTo",
@@ -465,7 +465,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 228.0, 481.0, 65.0, 21.0 ],
+					"patching_rect" : [ 228.0, 511.0, 65.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -505,7 +505,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 798.0, 603.0, 93.0, 21.0 ],
+					"patching_rect" : [ 798.0, 627.0, 93.0, 21.0 ],
 					"style" : "",
 					"text" : "s #0-audio-from"
 				}
@@ -518,7 +518,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 798.0, 573.0, 94.0, 21.0 ],
+					"patching_rect" : [ 798.0, 597.0, 94.0, 21.0 ],
 					"style" : "",
 					"text" : "pvar audio-from"
 				}
@@ -530,7 +530,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 900.0, 603.0, 79.0, 21.0 ],
+					"patching_rect" : [ 900.0, 627.0, 79.0, 21.0 ],
 					"style" : "",
 					"text" : "s #0-audio-to"
 				}
@@ -543,7 +543,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 900.0, 573.0, 80.0, 21.0 ],
+					"patching_rect" : [ 900.0, 597.0, 80.0, 21.0 ],
 					"style" : "",
 					"text" : "pvar audio-to"
 				}
@@ -555,7 +555,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 592.0, 603.0, 91.0, 21.0 ],
+					"patching_rect" : [ 592.0, 627.0, 91.0, 21.0 ],
 					"style" : "",
 					"text" : "s #0-in-channel"
 				}
@@ -568,7 +568,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 592.0, 573.0, 92.0, 21.0 ],
+					"patching_rect" : [ 592.0, 597.0, 92.0, 21.0 ],
 					"style" : "",
 					"text" : "pvar in-channel"
 				}
@@ -580,7 +580,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 691.0, 603.0, 98.0, 21.0 ],
+					"patching_rect" : [ 691.0, 627.0, 98.0, 21.0 ],
 					"style" : "",
 					"text" : "s #0-out-channel"
 				}
@@ -593,7 +593,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 691.0, 573.0, 99.0, 21.0 ],
+					"patching_rect" : [ 691.0, 597.0, 99.0, 21.0 ],
 					"style" : "",
 					"text" : "pvar out-channel"
 				}
@@ -987,7 +987,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-41",
-									"items" : [ 1, ",", 2, ",", 3, ",", 4, ",", 5, ",", 6, ",", 7, ",", 8, ",", 9, ",", 10, ",", 11, ",", 12, ",", 13, ",", 14, ",", 15, ",", 16, ",", 17, ",", 18 ],
+									"items" : [ 1, ",", 2 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2839,7 +2839,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u964012411"
+					"varname" : "u260006067"
 				}
 
 			}
@@ -5064,21 +5064,21 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-114" : [ "solo", "Solo", 0 ],
-			"obj-5::obj-61" : [ "adc-channel", "adc-channel", 0 ],
+			"obj-5::obj-56" : [ "audio-from", "audio-from", 0 ],
 			"obj-3" : [ "eq-active", "eq", 0 ],
+			"obj-30" : [ "qlist", "Qlist", 0 ],
+			"obj-5::obj-61" : [ "adc-channel", "adc-channel", 0 ],
 			"obj-115" : [ "channel-active", "ch-active", 0 ],
 			"obj-4" : [ "setname", "Setname", 0 ],
-			"obj-5::obj-6" : [ "matrix-channel", "matrix-channel", 0 ],
-			"obj-30" : [ "qlist", "Qlist", 0 ],
-			"obj-9::obj-6" : [ "matrix-channel[1]", "matrix-channel", 0 ],
 			"obj-9::obj-4" : [ "send-name", "receive-name", 0 ],
-			"obj-5::obj-4" : [ "receive-name", "receive-name", 0 ],
-			"obj-5::obj-56" : [ "audio-from", "audio-from", 0 ],
 			"obj-9::obj-61" : [ "dac-channel", "dac-channel", 0 ],
 			"obj-19::obj-18" : [ "amxd~", "amxd~", 0 ],
-			"obj-6" : [ "dyn-active", "dyn", 0 ],
+			"obj-5::obj-4" : [ "receive-name", "receive-name", 0 ],
 			"obj-116" : [ "gain", "Gain", 0 ],
+			"obj-6" : [ "dyn-active", "dyn", 0 ],
+			"obj-9::obj-6" : [ "matrix-channel[1]", "matrix-channel", 0 ],
+			"obj-114" : [ "solo", "Solo", 0 ],
+			"obj-5::obj-6" : [ "matrix-channel", "matrix-channel", 0 ],
 			"obj-9::obj-56" : [ "audio-to", "audio-to", 0 ]
 		}
 ,
@@ -5096,42 +5096,42 @@
 			}
 , 			{
 				"name" : "audioFrom.maxpat",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "forwardSource.js",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "formatSource.js",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audioTo.maxpat",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "forwardDestination.js",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "formatDestination.js",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

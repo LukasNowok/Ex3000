@@ -72,8 +72,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 394.333344, 231.0, 105.0, 35.0 ],
-					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ "bar" ],
 						"parameter_enable" : 0
 					}
 ,
@@ -1541,14 +1541,14 @@
 							"parameter_shortname" : "receive-name",
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_initial" : [ "foo" ],
+							"parameter_initial" : [ "name" ],
 							"parameter_invisible" : 1
 						}
 
 					}
 ,
 					"style" : "",
-					"text" : "foo",
+					"text" : "bar",
 					"textcolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "receive-name"
@@ -1906,22 +1906,22 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-56" : [ "audio-from", "audio-from", 0 ],
 			"obj-61" : [ "adc-channel", "adc-channel", 0 ],
-			"obj-6" : [ "matrix-channel", "matrix-channel", 0 ],
 			"obj-4" : [ "receive-name", "receive-name", 0 ],
-			"obj-56" : [ "audio-from", "audio-from", 0 ]
+			"obj-6" : [ "matrix-channel", "matrix-channel", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "forwardSource.js",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "formatSource.js",
-				"bootpath" : "~/Documents/EXP/dev/exp/channelStrip",
+				"bootpath" : "~/Documents/EXP/dev/ex3000/channelStrip",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
