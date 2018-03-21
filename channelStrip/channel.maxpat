@@ -2930,7 +2930,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr @autorestore 0",
-					"varname" : "u760002087"
+					"varname" : "u931006283"
 				}
 
 			}
