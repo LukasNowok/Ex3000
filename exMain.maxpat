@@ -143,12 +143,12 @@
 														"parameter_values" : 														{
 															"Dry/Wet" : 74.0,
 															"EchoEnable" : 0.0,
-															"EchoFeedback" : 50.342716,
+															"EchoFeedback" : 50.684319,
 															"EchoMode" : 0.0,
 															"EchoSync" : 13.0,
-															"EchoTime" : 185.767609,
+															"EchoTime" : 45.088936,
 															"Gain" : 0.0,
-															"Glide" : 0.000214,
+															"Glide" : 0.0,
 															"Latency" : 1.0,
 															"Quality" : 0.0,
 															"Transp" : 0.0,
@@ -159,7 +159,7 @@
 															"VibNoiseEnable" : 0.0,
 															"VibOscAmount" : 50.0,
 															"VibOscEnable" : 1.0,
-															"VibRate" : 0.002189
+															"VibRate" : 0.0
 														}
 
 													}
@@ -172,7 +172,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr @autoname 0",
-									"varname" : "u863001381"
+									"varname" : "u272001357"
 								}
 
 							}
@@ -253,12 +253,12 @@
 												"parameter_values" : 												{
 													"Dry/Wet" : 74.0,
 													"EchoEnable" : 0.0,
-													"EchoFeedback" : 50.342716,
+													"EchoFeedback" : 50.684319,
 													"EchoMode" : 0.0,
 													"EchoSync" : 13.0,
-													"EchoTime" : 185.767609,
+													"EchoTime" : 45.088936,
 													"Gain" : 0.0,
-													"Glide" : 0.000214,
+													"Glide" : 0.0,
 													"Latency" : 1.0,
 													"Quality" : 0.0,
 													"Transp" : 0.0,
@@ -269,7 +269,7 @@
 													"VibNoiseEnable" : 0.0,
 													"VibOscAmount" : 50.0,
 													"VibOscEnable" : 1.0,
-													"VibRate" : 0.002189
+													"VibRate" : 0.0
 												}
 
 											}
@@ -294,12 +294,12 @@
 															"parameter_values" : 															{
 																"Dry/Wet" : 74.0,
 																"EchoEnable" : 0.0,
-																"EchoFeedback" : 50.342716,
+																"EchoFeedback" : 50.684319,
 																"EchoMode" : 0.0,
 																"EchoSync" : 13.0,
-																"EchoTime" : 185.767609,
+																"EchoTime" : 45.088936,
 																"Gain" : 0.0,
-																"Glide" : 0.000214,
+																"Glide" : 0.0,
 																"Latency" : 1.0,
 																"Quality" : 0.0,
 																"Transp" : 0.0,
@@ -310,7 +310,7 @@
 																"VibNoiseEnable" : 0.0,
 																"VibOscAmount" : 50.0,
 																"VibOscEnable" : 1.0,
-																"VibRate" : 0.002189
+																"VibRate" : 0.0
 															}
 
 														}
@@ -444,7 +444,7 @@
 					"patching_rect" : [ 64.0, 365.0, 138.0, 22.0 ],
 					"style" : "",
 					"text" : "autopattr @autoname 0",
-					"varname" : "u831001567"
+					"varname" : "u034001543"
 				}
 
 			}
@@ -464,7 +464,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1412.0, 78.0, 463.0, 948.0 ],
+						"rect" : [ 372.0, 78.0, 463.0, 948.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -491,6 +491,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgmode" : 1,
@@ -507,7 +508,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "" ],
 									"patching_rect" : [ 138.0, 130.0, 85.0, 356.0 ],
-									"varname" : "1000",
+									"varname" : "1821",
 									"viewvisibility" : 1
 								}
 
@@ -534,7 +535,7 @@
 									"patching_rect" : [ 10.0, 10.0, 137.0, 22.0 ],
 									"style" : "",
 									"text" : "autopattr @autoname 0",
-									"varname" : "u125001380"
+									"varname" : "u943001356"
 								}
 
 							}
@@ -546,21 +547,21 @@
 												"filekind" : "audiofile",
 												"loop" : 1,
 												"content_state" : 												{
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"quality" : [ "basic" ],
-													"followglobaltempo" : [ 0 ],
 													"originallengthms" : [ 0.0 ],
-													"formant" : [ 1.0 ],
-													"speed" : [ 1.0 ],
-													"pitchshift" : [ 1.0 ],
-													"play" : [ 0 ],
-													"mode" : [ "basic" ],
 													"timestretch" : [ 0 ],
-													"basictuning" : [ 440 ],
-													"formantcorrection" : [ 0 ],
+													"mode" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
 													"pitchcorrection" : [ 0 ],
-													"originallength" : [ 0.0, "ticks" ]
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"play" : [ 0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"speed" : [ 1.0 ],
+													"quality" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"pitchshift" : [ 1.0 ],
+													"formantcorrection" : [ 0 ]
 												}
 
 											}
@@ -593,7 +594,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "" ],
 									"patching_rect" : [ 51.0, 130.0, 85.0, 356.0 ],
-									"varname" : "vc",
+									"varname" : "1837",
 									"viewvisibility" : 1
 								}
 
@@ -606,21 +607,21 @@
 												"filekind" : "audiofile",
 												"loop" : 1,
 												"content_state" : 												{
-													"originaltempo" : [ 120.0 ],
-													"slurtime" : [ 0.0 ],
-													"quality" : [ "basic" ],
-													"followglobaltempo" : [ 0 ],
 													"originallengthms" : [ 0.0 ],
-													"formant" : [ 1.0 ],
-													"speed" : [ 1.0 ],
-													"pitchshift" : [ 1.0 ],
-													"play" : [ 0 ],
-													"mode" : [ "basic" ],
 													"timestretch" : [ 0 ],
-													"basictuning" : [ 440 ],
-													"formantcorrection" : [ 0 ],
+													"mode" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
 													"pitchcorrection" : [ 0 ],
-													"originallength" : [ 0.0, "ticks" ]
+													"formant" : [ 1.0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"play" : [ 0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"speed" : [ 1.0 ],
+													"quality" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"pitchshift" : [ 1.0 ],
+													"formantcorrection" : [ 0 ]
 												}
 
 											}
@@ -2729,39 +2730,39 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-7::obj-5::obj-6" : [ "matrix-channel[3]", "matrix-channel", 0 ],
-			"obj-4::obj-6::obj-9::obj-56" : [ "audio-to", "audio-to", 0 ],
-			"obj-4::obj-6::obj-116" : [ "gain", "Gain", 0 ],
-			"obj-4::obj-6::obj-4" : [ "setname", "Setname", 0 ],
-			"obj-4::obj-7::obj-9::obj-61" : [ "dac-channel[1]", "dac-channel", 0 ],
-			"obj-4::obj-7::obj-116" : [ "gain[1]", "Gain", 0 ],
-			"obj-7::obj-14" : [ "echo", "echo", 0 ],
-			"obj-4::obj-7::obj-4" : [ "setname[1]", "Setname", 0 ],
-			"obj-4::obj-7::obj-5::obj-4" : [ "receive-name[1]", "receive-name", 0 ],
-			"obj-4::obj-6::obj-5::obj-6" : [ "matrix-channel[1]", "matrix-channel", 0 ],
-			"obj-4::obj-6::obj-6" : [ "dyn-active", "dyn", 0 ],
 			"obj-4::obj-6::obj-30" : [ "qlist", "Qlist", 0 ],
-			"obj-4::obj-7::obj-19::obj-18" : [ "amxd~[1]", "amxd~", 0 ],
-			"obj-4::obj-6::obj-5::obj-56" : [ "audio-from", "audio-from", 0 ],
-			"obj-4::obj-7::obj-9::obj-56" : [ "audio-to[1]", "audio-to", 0 ],
 			"obj-4::obj-6::obj-9::obj-61" : [ "dac-channel", "dac-channel", 0 ],
-			"obj-4::obj-6::obj-114" : [ "solo", "Solo", 0 ],
-			"obj-4::obj-7::obj-6" : [ "dyn-active[1]", "dyn", 0 ],
+			"obj-4::obj-7::obj-9::obj-56" : [ "audio-to[1]", "audio-to", 0 ],
+			"obj-4::obj-6::obj-4" : [ "setname", "Setname", 0 ],
+			"obj-4::obj-6::obj-5::obj-4" : [ "receive-name", "receive-name", 0 ],
+			"obj-4::obj-7::obj-116" : [ "gain[1]", "Gain", 0 ],
+			"obj-4::obj-7::obj-4" : [ "setname[1]", "Setname", 0 ],
+			"obj-4::obj-7::obj-5::obj-6" : [ "matrix-channel[3]", "matrix-channel", 0 ],
 			"obj-4::obj-6::obj-9::obj-4" : [ "send-name", "receive-name", 0 ],
 			"obj-4::obj-7::obj-115" : [ "channel-active[1]", "ch-active", 0 ],
+			"obj-4::obj-6::obj-5::obj-56" : [ "audio-from", "audio-from", 0 ],
 			"obj-4::obj-7::obj-5::obj-56" : [ "audio-from[1]", "audio-from", 0 ],
-			"obj-4::obj-6::obj-3" : [ "eq-active", "eq", 0 ],
-			"obj-4::obj-7::obj-9::obj-4" : [ "send-name[1]", "receive-name", 0 ],
-			"obj-4::obj-6::obj-5::obj-4" : [ "receive-name", "receive-name", 0 ],
-			"obj-4::obj-6::obj-9::obj-6" : [ "matrix-channel", "matrix-channel", 0 ],
-			"obj-4::obj-7::obj-3" : [ "eq-active[1]", "eq", 0 ],
-			"obj-4::obj-7::obj-30" : [ "qlist[1]", "Qlist", 0 ],
-			"obj-4::obj-6::obj-19::obj-18" : [ "amxd~", "amxd~", 0 ],
-			"obj-4::obj-6::obj-5::obj-61" : [ "adc-channel", "adc-channel", 0 ],
-			"obj-4::obj-6::obj-115" : [ "channel-active", "ch-active", 0 ],
 			"obj-4::obj-7::obj-9::obj-6" : [ "matrix-channel[2]", "matrix-channel", 0 ],
+			"obj-4::obj-6::obj-5::obj-6" : [ "matrix-channel[1]", "matrix-channel", 0 ],
+			"obj-4::obj-6::obj-6" : [ "dyn-active", "dyn", 0 ],
+			"obj-7::obj-14" : [ "echo", "echo", 0 ],
+			"obj-4::obj-7::obj-19::obj-18" : [ "amxd~[1]", "amxd~", 0 ],
 			"obj-4::obj-7::obj-114" : [ "solo[1]", "Solo", 0 ],
-			"obj-4::obj-7::obj-5::obj-61" : [ "adc-channel[1]", "adc-channel", 0 ]
+			"obj-4::obj-6::obj-9::obj-6" : [ "matrix-channel", "matrix-channel", 0 ],
+			"obj-4::obj-7::obj-5::obj-61" : [ "adc-channel[1]", "adc-channel", 0 ],
+			"obj-4::obj-7::obj-9::obj-61" : [ "dac-channel[1]", "dac-channel", 0 ],
+			"obj-4::obj-6::obj-116" : [ "gain", "Gain", 0 ],
+			"obj-4::obj-7::obj-3" : [ "eq-active[1]", "eq", 0 ],
+			"obj-4::obj-6::obj-3" : [ "eq-active", "eq", 0 ],
+			"obj-4::obj-6::obj-5::obj-61" : [ "adc-channel", "adc-channel", 0 ],
+			"obj-4::obj-7::obj-6" : [ "dyn-active[1]", "dyn", 0 ],
+			"obj-4::obj-6::obj-19::obj-18" : [ "amxd~", "amxd~", 0 ],
+			"obj-4::obj-7::obj-30" : [ "qlist[1]", "Qlist", 0 ],
+			"obj-4::obj-7::obj-5::obj-4" : [ "receive-name[1]", "receive-name", 0 ],
+			"obj-4::obj-6::obj-114" : [ "solo", "Solo", 0 ],
+			"obj-4::obj-6::obj-115" : [ "channel-active", "ch-active", 0 ],
+			"obj-4::obj-7::obj-9::obj-4" : [ "send-name[1]", "receive-name", 0 ],
+			"obj-4::obj-6::obj-9::obj-56" : [ "audio-to", "audio-to", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -2864,6 +2865,20 @@
 				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip",
 				"patcherrelativepath" : "./channelStrip",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "polySend.maxpat",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/polySend",
+				"patcherrelativepath" : "./polySend",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "managePolySend.js",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/polySend",
+				"patcherrelativepath" : "./polySend",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

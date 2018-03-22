@@ -2,7 +2,8 @@ outlets = 2;
 
 function anything()
 {
-    var sends = arrayfromargs(messagename, arguments);
+    var inputArguments = arrayfromargs(messagename, arguments);
+    var sends = inputArguments[0].split("/");//define message format//delimiter (example: send::name1/name2/etc)...
     var numberOfSends = sends.length;
     var maximumNumberOfSends = 10;
     

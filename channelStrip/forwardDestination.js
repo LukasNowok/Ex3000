@@ -1,7 +1,7 @@
 function anything()
 {
-	var a = arrayfromargs(messagename, arguments);
-	var argList=a[0].split("::"); //define message format//delimiter (example: adc::2)...
+	var inputArguments = arrayfromargs(messagename, arguments);
+	var argList=inputArguments[0].split("::"); //define message format//delimiter (example: adc::2)...
 
 	switch(argList[0]){
 		case "dac":
@@ -10,7 +10,7 @@ function anything()
 				this.patcher.getnamed("dac-channel").message(parseInt(argList[1]));
 			};
 			break;
-		case "send":
+		case "send"://format: "send::name1/name2/etc..."
 			{
 				this.patcher.getnamed("audio-to").message("symbol","send");
 				this.patcher.getnamed("send-name").set(argList[1]);
