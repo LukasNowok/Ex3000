@@ -140,7 +140,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 171.0, 610.75, 81.0, 21.0 ],
-					"restore" : [ "direct" ],
+					"restore" : [ "dac", 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -159,7 +159,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 172.0, 156.0, 95.0, 21.0 ],
-					"restore" : [ "adc::1" ],
+					"restore" : [ "adc", 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2944,7 +2944,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u712006814"
+					"varname" : "u592015990"
 				}
 
 			}
@@ -5229,7 +5229,6 @@
 			"obj-30" : [ "qlist", "Qlist", 0 ],
 			"obj-114" : [ "solo", "Solo", 0 ],
 			"obj-9::obj-56" : [ "audio-to", "audio-to", 0 ],
-			"obj-5::obj-6" : [ "matrix-channel", "matrix-channel", 0 ],
 			"obj-19::obj-18" : [ "amxd~", "amxd~", 0 ],
 			"obj-5::obj-61" : [ "adc-channel", "adc-channel", 0 ],
 			"obj-6" : [ "dyn-active", "dyn", 0 ],

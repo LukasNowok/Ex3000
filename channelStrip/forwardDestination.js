@@ -25,11 +25,11 @@ function matrix()
 
 function direct()
 {
-	var inputList = arrayfromargs(messagename, arguments);
+	//var inputList = arrayfromargs(messagename, arguments);
 	this.patcher.getnamed("audio-to").message("symbol","direct");
 }
 
-/*
+/* old code for reference
 function anything()
 {
 	var inputList = arrayfromargs(messagename, arguments);

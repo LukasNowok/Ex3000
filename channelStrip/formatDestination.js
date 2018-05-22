@@ -2,17 +2,15 @@ function dac()
 {
 	var obj = this.patcher.getnamed("dac-channel");
 	var value = obj.getvalueof();
-	if((typeof value) == "number")
-	{
-		outlet(0,["dac", parseInt(value)]);
-	};
+	outlet(0,["dac", parseInt(value)]);
+
 }
 
 function send()
 {
 	var obj = this.patcher.getnamed("send-name");
 	var value = obj.getvalueof();
-	value.unshift("send");
+	value.unshift("send");//add "send" as first element to list
 	outlet(0, value);
 }
 
