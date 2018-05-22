@@ -9,7 +9,7 @@ function send()
 {
 	var inputList = arrayfromargs(messagename, arguments);
 	this.patcher.getnamed("audio-to").message("symbol","send");//set the GUI element
-	inputList.shift();//remove first item (destination type)
+	inputList.shift();//remove first item (destination type -- "send" in this case)
 	this.patcher.getnamed("send-name").set(inputList);
 	this.patcher.getnamed("setSendName").message(inputList);
 }

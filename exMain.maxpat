@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-11",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 160.0, 231.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -156,7 +170,7 @@
 														"parameter_values" : 														{
 															"Dry/Wet" : 74.0,
 															"EchoEnable" : 0.0,
-															"EchoFeedback" : 55.339764,
+															"EchoFeedback" : 55.984013,
 															"EchoMode" : 0.0,
 															"EchoSync" : 13.0,
 															"EchoTime" : 0.0,
@@ -185,7 +199,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr @autoname 0",
-									"varname" : "u705000879"
+									"varname" : "u557000890"
 								}
 
 							}
@@ -265,7 +279,7 @@
 												"parameter_values" : 												{
 													"Dry/Wet" : 74.0,
 													"EchoEnable" : 0.0,
-													"EchoFeedback" : 55.339764,
+													"EchoFeedback" : 55.984013,
 													"EchoMode" : 0.0,
 													"EchoSync" : 13.0,
 													"EchoTime" : 0.0,
@@ -306,7 +320,7 @@
 															"parameter_values" : 															{
 																"Dry/Wet" : 74.0,
 																"EchoEnable" : 0.0,
-																"EchoFeedback" : 55.339764,
+																"EchoFeedback" : 55.984013,
 																"EchoMode" : 0.0,
 																"EchoSync" : 13.0,
 																"EchoTime" : 0.0,
@@ -436,7 +450,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "masterPresets.json",
 					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"id" : "obj-6",
 					"maxclass" : "newobj",
@@ -466,7 +479,7 @@
 					"patching_rect" : [ 64.0, 365.0, 138.0, 22.0 ],
 					"style" : "",
 					"text" : "autopattr @autoname 0",
-					"varname" : "u808001065"
+					"varname" : "u839001076"
 				}
 
 			}
@@ -515,6 +528,30 @@
 						"subpatcher_template" : "",
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 399.0, 383.0, 24.0, 24.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 399.0, 424.0, 85.0, 22.0 ],
+									"style" : "",
+									"text" : "s recompileAll"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "newobj",
@@ -621,7 +658,7 @@
 									"patching_rect" : [ 10.0, 10.0, 137.0, 22.0 ],
 									"style" : "",
 									"text" : "autopattr @autoname 0",
-									"varname" : "u024000878"
+									"varname" : "u467000889"
 								}
 
 							}
@@ -633,21 +670,21 @@
 												"filekind" : "audiofile",
 												"loop" : 1,
 												"content_state" : 												{
-													"followglobaltempo" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"mode" : [ "basic" ],
-													"formantcorrection" : [ 0 ],
 													"formant" : [ 1.0 ],
 													"originaltempo" : [ 120.0 ],
 													"slurtime" : [ 0.0 ],
 													"play" : [ 0 ],
+													"quality" : [ "basic" ],
 													"originallengthms" : [ 0.0 ],
 													"basictuning" : [ 440 ],
 													"pitchshift" : [ 1.0 ],
+													"mode" : [ "basic" ],
 													"pitchcorrection" : [ 0 ],
 													"originallength" : [ 0.0, "ticks" ],
 													"timestretch" : [ 0 ],
-													"quality" : [ "basic" ]
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"formantcorrection" : [ 0 ]
 												}
 
 											}
@@ -680,7 +717,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "" ],
 									"patching_rect" : [ 51.0, 150.0, 85.0, 356.0 ],
-									"varname" : ">vc",
+									"varname" : "vc",
 									"viewvisibility" : 1
 								}
 
@@ -693,21 +730,21 @@
 												"filekind" : "audiofile",
 												"loop" : 1,
 												"content_state" : 												{
-													"followglobaltempo" : [ 0 ],
-													"speed" : [ 1.0 ],
-													"mode" : [ "basic" ],
-													"formantcorrection" : [ 0 ],
 													"formant" : [ 1.0 ],
 													"originaltempo" : [ 120.0 ],
 													"slurtime" : [ 0.0 ],
 													"play" : [ 0 ],
+													"quality" : [ "basic" ],
 													"originallengthms" : [ 0.0 ],
 													"basictuning" : [ 440 ],
 													"pitchshift" : [ 1.0 ],
+													"mode" : [ "basic" ],
 													"pitchcorrection" : [ 0 ],
 													"originallength" : [ 0.0, "ticks" ],
 													"timestretch" : [ 0 ],
-													"quality" : [ "basic" ]
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"formantcorrection" : [ 0 ]
 												}
 
 											}
@@ -760,6 +797,13 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
  ],
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
@@ -797,7 +841,127 @@
 								"multi" : 0
 							}
 , 							{
+								"name" : "Default M4L",
+								"default" : 								{
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial Bold" ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Default M4L Poletti",
+								"default" : 								{
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontsize" : [ 10.0 ],
+									"fontname" : [ "Arial Bold" ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Default M4L-1",
+								"default" : 								{
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ],
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
 								"name" : "Max 12 Regular",
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Max 12 Regular-1",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Max 12 Regular-1-1",
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Max 12 Regular-1-1-1",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Max 12 Regular-2",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Max 12 Regular-3",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Max 12 Regular-4",
 								"parentstyle" : "",
 								"multi" : 0
 							}
@@ -2450,7 +2614,7 @@
 					"bgcolor" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"bgcolor2" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0,
+					"bgfillcolor_autogradient" : 0.0,
 					"bgfillcolor_color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"bgfillcolor_color1" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"bgfillcolor_color2" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -2471,6 +2635,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-13", 0 ]
@@ -2507,21 +2678,21 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-7::obj-5::obj-61" : [ "adc-channel", "adc-channel", 0 ],
-			"obj-4::obj-7::obj-9::obj-61" : [ "dac-channel", "dac-channel", 0 ],
-			"obj-4::obj-7::obj-6" : [ "dyn-active", "dyn", 0 ],
-			"obj-4::obj-7::obj-116" : [ "gain", "Gain", 0 ],
-			"obj-7::obj-14" : [ "echo", "echo", 0 ],
-			"obj-4::obj-7::obj-19::obj-18" : [ "amxd~", "amxd~", 0 ],
-			"obj-4::obj-7::obj-9::obj-4" : [ "send-name", "receive-name", 0 ],
-			"obj-4::obj-7::obj-5::obj-4" : [ "receive-name", "receive-name", 0 ],
-			"obj-4::obj-7::obj-9::obj-56" : [ "audio-to", "audio-to", 0 ],
 			"obj-4::obj-7::obj-114" : [ "solo", "Solo", 0 ],
-			"obj-4::obj-7::obj-3" : [ "eq-active", "eq", 0 ],
-			"obj-4::obj-7::obj-115" : [ "channel-active", "ch-active", 0 ],
-			"obj-4::obj-7::obj-5::obj-56" : [ "audio-from", "audio-from", 0 ],
+			"obj-4::obj-7::obj-6" : [ "dyn-active", "dyn", 0 ],
+			"obj-4::obj-7::obj-5::obj-61" : [ "adc-channel", "adc-channel", 0 ],
+			"obj-4::obj-7::obj-30" : [ "qlist", "Qlist", 0 ],
 			"obj-4::obj-7::obj-4" : [ "channelname", "channelname", 0 ],
-			"obj-4::obj-7::obj-30" : [ "qlist", "Qlist", 0 ]
+			"obj-4::obj-7::obj-9::obj-56" : [ "audio-to", "audio-to", 0 ],
+			"obj-4::obj-7::obj-9::obj-61" : [ "dac-channel", "dac-channel", 0 ],
+			"obj-4::obj-7::obj-5::obj-56" : [ "audio-from", "audio-from", 0 ],
+			"obj-4::obj-7::obj-19::obj-18" : [ "amxd~", "amxd~", 0 ],
+			"obj-4::obj-7::obj-5::obj-4" : [ "receive-name", "receive-name", 0 ],
+			"obj-4::obj-7::obj-3" : [ "eq-active", "eq", 0 ],
+			"obj-4::obj-7::obj-9::obj-4" : [ "send-name", "receive-name", 0 ],
+			"obj-7::obj-14" : [ "echo", "echo", 0 ],
+			"obj-4::obj-7::obj-115" : [ "channel-active", "ch-active", 0 ],
+			"obj-4::obj-7::obj-116" : [ "gain", "Gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -2651,13 +2822,6 @@
 				"name" : "cello-f2.aif",
 				"bootpath" : "C74:/media/msp",
 				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "masterPresets.json",
-				"bootpath" : "~/Documents/EXP/dev/Ex3000/tests",
-				"patcherrelativepath" : "./tests",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
