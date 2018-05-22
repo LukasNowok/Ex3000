@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 409.0, 269.0, 480.0 ],
+		"rect" : [ 34.0, 78.0, 271.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -71,7 +71,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 313.0, 47.0, 22.0 ],
 					"style" : "",
-					"text" : "store 2"
+					"text" : "store 1"
 				}
 
 			}
@@ -91,7 +91,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 372.0, 489.0, 728.0, 480.0 ],
+						"rect" : [ 374.0, 78.0, 728.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -143,10 +143,10 @@
 														"parameter_values" : 														{
 															"Dry/Wet" : 74.0,
 															"EchoEnable" : 0.0,
-															"EchoFeedback" : 50.684319,
+															"EchoFeedback" : 55.015594,
 															"EchoMode" : 0.0,
 															"EchoSync" : 13.0,
-															"EchoTime" : 45.088936,
+															"EchoTime" : 0.0,
 															"Gain" : 0.0,
 															"Glide" : 0.0,
 															"Latency" : 1.0,
@@ -172,7 +172,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr @autoname 0",
-									"varname" : "u272001357"
+									"varname" : "u549000914"
 								}
 
 							}
@@ -230,7 +230,6 @@
 									}
 ,
 									"saved_object_attributes" : 									{
-										"active" : 0,
 										"annotation_name" : "",
 										"parameter_enable" : 1,
 										"patchername" : "Pitch & Echo.amxd",
@@ -253,10 +252,10 @@
 												"parameter_values" : 												{
 													"Dry/Wet" : 74.0,
 													"EchoEnable" : 0.0,
-													"EchoFeedback" : 50.684319,
+													"EchoFeedback" : 55.015594,
 													"EchoMode" : 0.0,
 													"EchoSync" : 13.0,
-													"EchoTime" : 45.088936,
+													"EchoTime" : 0.0,
 													"Gain" : 0.0,
 													"Glide" : 0.0,
 													"Latency" : 1.0,
@@ -294,10 +293,10 @@
 															"parameter_values" : 															{
 																"Dry/Wet" : 74.0,
 																"EchoEnable" : 0.0,
-																"EchoFeedback" : 50.684319,
+																"EchoFeedback" : 55.015594,
 																"EchoMode" : 0.0,
 																"EchoSync" : 13.0,
-																"EchoTime" : 45.088936,
+																"EchoTime" : 0.0,
 																"Gain" : 0.0,
 																"Glide" : 0.0,
 																"Latency" : 1.0,
@@ -423,9 +422,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 390.5, 177.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 338, 44, 772, 444 ],
+						"client_rect" : [ 1048, 159, 1440, 650 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 350, 44, 1057, 596 ]
 					}
 ,
 					"style" : "",
@@ -444,7 +443,7 @@
 					"patching_rect" : [ 64.0, 365.0, 138.0, 22.0 ],
 					"style" : "",
 					"text" : "autopattr @autoname 0",
-					"varname" : "u034001543"
+					"varname" : "u514001100"
 				}
 
 			}
@@ -464,7 +463,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 372.0, 78.0, 463.0, 948.0 ],
+						"rect" : [ 374.0, 78.0, 639.0, 788.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -494,22 +493,86 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"bgmode" : 1,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-6",
-									"lockeddragscroll" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "channel.maxpat",
+									"id" : "obj-5",
+									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 2,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 138.0, 130.0, 85.0, 356.0 ],
-									"varname" : "1821",
-									"viewvisibility" : 1
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 342.0, 99.0, 68.0, 22.0 ],
+									"style" : "",
+									"text" : "cycle~ 440"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "live.meter~",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "list" ],
+									"patching_rect" : [ 230.0, 594.0, 5.0, 100.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 223.0, 553.0, 76.0, 22.0 ],
+									"style" : "",
+									"text" : "receive~ me"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "live.meter~",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "list" ],
+									"patching_rect" : [ 143.0, 594.0, 5.0, 100.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 136.0, 553.0, 80.0, 22.0 ],
+									"style" : "",
+									"text" : "receive~ that"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "live.meter~",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "list" ],
+									"patching_rect" : [ 58.0, 594.0, 5.0, 100.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 51.0, 553.0, 78.0, 22.0 ],
+									"style" : "",
+									"text" : "receive~ this"
 								}
 
 							}
@@ -535,7 +598,7 @@
 									"patching_rect" : [ 10.0, 10.0, 137.0, 22.0 ],
 									"style" : "",
 									"text" : "autopattr @autoname 0",
-									"varname" : "u943001356"
+									"varname" : "u116000913"
 								}
 
 							}
@@ -547,21 +610,21 @@
 												"filekind" : "audiofile",
 												"loop" : 1,
 												"content_state" : 												{
-													"originallengthms" : [ 0.0 ],
-													"timestretch" : [ 0 ],
-													"mode" : [ "basic" ],
-													"slurtime" : [ 0.0 ],
-													"pitchcorrection" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"basictuning" : [ 440 ],
-													"followglobaltempo" : [ 0 ],
-													"play" : [ 0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"speed" : [ 1.0 ],
-													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
 													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ]
+													"pitchcorrection" : [ 0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"timestretch" : [ 0 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"formantcorrection" : [ 0 ],
+													"formant" : [ 1.0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"slurtime" : [ 0.0 ],
+													"quality" : [ "basic" ],
+													"play" : [ 0 ],
+													"originallengthms" : [ 0.0 ],
+													"basictuning" : [ 440 ]
 												}
 
 											}
@@ -593,8 +656,8 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 51.0, 130.0, 85.0, 356.0 ],
-									"varname" : "1837",
+									"patching_rect" : [ 51.0, 150.0, 85.0, 356.0 ],
+									"varname" : "ivy",
 									"viewvisibility" : 1
 								}
 
@@ -607,21 +670,21 @@
 												"filekind" : "audiofile",
 												"loop" : 1,
 												"content_state" : 												{
-													"originallengthms" : [ 0.0 ],
-													"timestretch" : [ 0 ],
-													"mode" : [ "basic" ],
-													"slurtime" : [ 0.0 ],
-													"pitchcorrection" : [ 0 ],
-													"formant" : [ 1.0 ],
-													"basictuning" : [ 440 ],
-													"followglobaltempo" : [ 0 ],
-													"play" : [ 0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"speed" : [ 1.0 ],
-													"quality" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
 													"pitchshift" : [ 1.0 ],
-													"formantcorrection" : [ 0 ]
+													"pitchcorrection" : [ 0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"timestretch" : [ 0 ],
+													"followglobaltempo" : [ 0 ],
+													"speed" : [ 1.0 ],
+													"formantcorrection" : [ 0 ],
+													"formant" : [ 1.0 ],
+													"mode" : [ "basic" ],
+													"originaltempo" : [ 120.0 ],
+													"slurtime" : [ 0.0 ],
+													"quality" : [ "basic" ],
+													"play" : [ 0 ],
+													"originallengthms" : [ 0.0 ],
+													"basictuning" : [ 440 ]
 												}
 
 											}
@@ -643,6 +706,27 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-17", 0 ]
 								}
 
 							}
@@ -2195,7 +2279,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 756.0, 189.0, 937.0, 740.0 ],
+						"rect" : [ 469.0, 78.0, 937.0, 740.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2706,6 +2790,19 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 149.0, 320.5, 106.0, 22.0 ],
+					"style" : "",
+					"text" : "storagewindow"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -2728,41 +2825,31 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-6::obj-30" : [ "qlist", "Qlist", 0 ],
-			"obj-4::obj-6::obj-9::obj-61" : [ "dac-channel", "dac-channel", 0 ],
-			"obj-4::obj-7::obj-9::obj-56" : [ "audio-to[1]", "audio-to", 0 ],
-			"obj-4::obj-6::obj-4" : [ "setname", "Setname", 0 ],
-			"obj-4::obj-6::obj-5::obj-4" : [ "receive-name", "receive-name", 0 ],
-			"obj-4::obj-7::obj-116" : [ "gain[1]", "Gain", 0 ],
-			"obj-4::obj-7::obj-4" : [ "setname[1]", "Setname", 0 ],
-			"obj-4::obj-7::obj-5::obj-6" : [ "matrix-channel[3]", "matrix-channel", 0 ],
-			"obj-4::obj-6::obj-9::obj-4" : [ "send-name", "receive-name", 0 ],
-			"obj-4::obj-7::obj-115" : [ "channel-active[1]", "ch-active", 0 ],
-			"obj-4::obj-6::obj-5::obj-56" : [ "audio-from", "audio-from", 0 ],
-			"obj-4::obj-7::obj-5::obj-56" : [ "audio-from[1]", "audio-from", 0 ],
-			"obj-4::obj-7::obj-9::obj-6" : [ "matrix-channel[2]", "matrix-channel", 0 ],
-			"obj-4::obj-6::obj-5::obj-6" : [ "matrix-channel[1]", "matrix-channel", 0 ],
-			"obj-4::obj-6::obj-6" : [ "dyn-active", "dyn", 0 ],
+			"obj-4::obj-7::obj-9::obj-61" : [ "dac-channel", "dac-channel", 0 ],
+			"obj-4::obj-7::obj-5::obj-56" : [ "audio-from", "audio-from", 0 ],
+			"obj-4::obj-7::obj-116" : [ "gain", "Gain", 0 ],
 			"obj-7::obj-14" : [ "echo", "echo", 0 ],
-			"obj-4::obj-7::obj-19::obj-18" : [ "amxd~[1]", "amxd~", 0 ],
-			"obj-4::obj-7::obj-114" : [ "solo[1]", "Solo", 0 ],
-			"obj-4::obj-6::obj-9::obj-6" : [ "matrix-channel", "matrix-channel", 0 ],
-			"obj-4::obj-7::obj-5::obj-61" : [ "adc-channel[1]", "adc-channel", 0 ],
-			"obj-4::obj-7::obj-9::obj-61" : [ "dac-channel[1]", "dac-channel", 0 ],
-			"obj-4::obj-6::obj-116" : [ "gain", "Gain", 0 ],
-			"obj-4::obj-7::obj-3" : [ "eq-active[1]", "eq", 0 ],
-			"obj-4::obj-6::obj-3" : [ "eq-active", "eq", 0 ],
-			"obj-4::obj-6::obj-5::obj-61" : [ "adc-channel", "adc-channel", 0 ],
-			"obj-4::obj-7::obj-6" : [ "dyn-active[1]", "dyn", 0 ],
-			"obj-4::obj-6::obj-19::obj-18" : [ "amxd~", "amxd~", 0 ],
-			"obj-4::obj-7::obj-30" : [ "qlist[1]", "Qlist", 0 ],
-			"obj-4::obj-7::obj-5::obj-4" : [ "receive-name[1]", "receive-name", 0 ],
-			"obj-4::obj-6::obj-114" : [ "solo", "Solo", 0 ],
-			"obj-4::obj-6::obj-115" : [ "channel-active", "ch-active", 0 ],
-			"obj-4::obj-7::obj-9::obj-4" : [ "send-name[1]", "receive-name", 0 ],
-			"obj-4::obj-6::obj-9::obj-56" : [ "audio-to", "audio-to", 0 ]
+			"obj-4::obj-7::obj-115" : [ "channel-active", "ch-active", 0 ],
+			"obj-4::obj-7::obj-4" : [ "channelname", "channelname", 0 ],
+			"obj-4::obj-7::obj-9::obj-4" : [ "send-name", "receive-name", 0 ],
+			"obj-4::obj-7::obj-5::obj-4" : [ "receive-name", "receive-name", 0 ],
+			"obj-4::obj-7::obj-30" : [ "qlist", "Qlist", 0 ],
+			"obj-4::obj-7::obj-9::obj-56" : [ "audio-to", "audio-to", 0 ],
+			"obj-4::obj-7::obj-114" : [ "solo", "Solo", 0 ],
+			"obj-4::obj-7::obj-5::obj-6" : [ "matrix-channel", "matrix-channel", 0 ],
+			"obj-4::obj-7::obj-5::obj-61" : [ "adc-channel", "adc-channel", 0 ],
+			"obj-4::obj-7::obj-19::obj-18" : [ "amxd~", "amxd~", 0 ],
+			"obj-4::obj-7::obj-6" : [ "dyn-active", "dyn", 0 ],
+			"obj-4::obj-7::obj-3" : [ "eq-active", "eq", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -2869,15 +2956,15 @@
 			}
 , 			{
 				"name" : "polySend.maxpat",
-				"bootpath" : "~/Documents/EXP/dev/Ex3000/polySend",
-				"patcherrelativepath" : "./polySend",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip/polySend",
+				"patcherrelativepath" : "./channelStrip/polySend",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "managePolySend.js",
-				"bootpath" : "~/Documents/EXP/dev/Ex3000/polySend",
-				"patcherrelativepath" : "./polySend",
+				"bootpath" : "~/Documents/EXP/dev/Ex3000/channelStrip/polySend",
+				"patcherrelativepath" : "./channelStrip/polySend",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

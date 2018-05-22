@@ -2,22 +2,28 @@ function dac()
 {
 	var obj = this.patcher.getnamed("dac-channel");
 	var value = obj.getvalueof();
-	outlet(0,"dac::"+value);
+	if((typeof value) == "number")
+	{
+		outlet(0,["dac", parseInt(value)]);
+	};
 }
 
 function send()
 {
 	var obj = this.patcher.getnamed("send-name");
 	var value = obj.getvalueof();
-	outlet(0,"send::"+value);
+	value.unshift("send");
+	outlet(0, value);
 }
 
+/*
 function matrix()
 {
 	var obj = this.patcher.getnamed("matrix-channel");
 	var value = obj.getvalueof();
 	outlet(0,"matrix::"+value);
 }
+*/
 
 function direct()
 {
