@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 411.0, 78.0, 995.0, 537.0 ],
+		"rect" : [ 411.0, 78.0, 491.0, 537.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -313,9 +313,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 11.0 ]
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -324,9 +324,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 10.0 ]
+									"fontsize" : [ 10.0 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -335,7 +335,7 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
+									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -345,8 +345,8 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ]
+									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1402,8 +1402,8 @@
 					"annotation" : "Sets a name for the track. That name is also used as a receive name to control the parameters of the track. For instance, for a track named “MyTrack”, a message <; MyTrack gain -6.> will set the gain of that track to -6 dB.",
 					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"border" : 1.0,
-					"bordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
-					"fontname" : "Arial",
+					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
+					"fontname" : "Andale Mono",
 					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-4",
@@ -1413,9 +1413,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 323.5, 231.5, 50.0, 15.0 ],
+					"patching_rect" : [ 323.5, 231.5, 49.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 32.0, 69.0, 15.0 ],
+					"presentation_rect" : [ 5.0, 33.0, 69.0, 15.0 ],
 					"rounded" : 0.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -1440,15 +1440,17 @@
 			}
 , 			{
 				"box" : 				{
+					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
+					"fontname" : "Andale Mono",
 					"id" : "obj-61",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 240.5, 231.5, 24.0, 15.0 ],
+					"patching_rect" : [ 240.5, 231.5, 27.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 32.0, 36.0, 15.0 ],
+					"presentation_rect" : [ 5.0, 33.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -1484,21 +1486,26 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontsize" : 9.0,
+					"fontname" : "Andale Mono",
+					"fontsize" : 10.0,
 					"id" : "obj-59",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.75, 94.0, 63.0, 17.0 ],
+					"patching_rect" : [ 121.75, 94.0, 79.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 64.0, 17.0 ],
+					"presentation_rect" : [ 2.0, 0.0, 80.0, 18.0 ],
 					"style" : "",
-					"text" : "Audio From\n"
+					"text" : "Audio From\n",
+					"textcolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
+					"focusbordercolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
+					"fontname" : "Andale Mono",
 					"hltcolor" : [ 0.835941, 0.83802, 0.894216, 1.0 ],
 					"id" : "obj-56",
 					"maxclass" : "live.menu",
@@ -1522,6 +1529,8 @@
 
 					}
 ,
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"tricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "audio-from"
 				}
 
@@ -1747,9 +1756,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 11.0 ]
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1758,9 +1767,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontsize" : [ 10.0 ]
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1769,7 +1778,7 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1779,8 +1788,8 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ]
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

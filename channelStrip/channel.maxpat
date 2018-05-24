@@ -9,8 +9,8 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 640.0, 78.0, 766.0, 636.0 ],
-		"bgcolor" : [ 0.556646, 0.551429, 0.519943, 1.0 ],
+		"rect" : [ 848.0, 78.0, 292.0, 636.0 ],
+		"bgcolor" : [ 0.529412, 0.529412, 0.529412, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -140,8 +140,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 171.0, 610.75, 81.0, 21.0 ],
-					"restore" : [ "dac", 1 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ "direct" ],
 						"parameter_enable" : 0
 					}
 ,
@@ -159,8 +159,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 172.0, 156.0, 95.0, 21.0 ],
-					"restore" : [ "adc", 1 ],
 					"saved_object_attributes" : 					{
+						"initial" : [ "inlet" ],
 						"parameter_enable" : 0
 					}
 ,
@@ -214,7 +214,7 @@
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 60.0, 594.5, 81.0, 53.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 301.0, 76.0, 53.0 ],
+					"presentation_rect" : [ 1.0, 301.0, 77.0, 53.0 ],
 					"varname" : "audioTo",
 					"viewvisibility" : 1
 				}
@@ -237,7 +237,7 @@
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 60.0, 140.5, 82.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, -1.0, 82.0, 52.0 ],
+					"presentation_rect" : [ 0.0, 1.0, 77.0, 52.0 ],
 					"varname" : "audioFrom",
 					"viewvisibility" : 1
 				}
@@ -501,9 +501,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -512,9 +512,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -523,6 +523,7 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -532,7 +533,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ]
 								}
@@ -577,13 +577,13 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.223529, 0.254902, 0.294118, 0.24 ],
+					"bgcolor" : [ 0.529412, 0.529412, 0.529412, 1.0 ],
 					"hint" : "Recording (comming soon)",
 					"id" : "obj-40",
 					"maxclass" : "led",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"offcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"offcolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
 					"oncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
@@ -950,9 +950,9 @@
 , 											{
 												"name" : "Default M4L",
 												"default" : 												{
+													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 													"fontsize" : [ 11.0 ],
-													"fontname" : [ "Arial Bold" ],
-													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+													"fontname" : [ "Arial Bold" ]
 												}
 ,
 												"parentstyle" : "",
@@ -961,9 +961,9 @@
 , 											{
 												"name" : "Default M4L Poletti",
 												"default" : 												{
+													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 													"fontsize" : [ 10.0 ],
-													"fontname" : [ "Arial Bold" ],
-													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+													"fontname" : [ "Arial Bold" ]
 												}
 ,
 												"parentstyle" : "",
@@ -972,6 +972,7 @@
 , 											{
 												"name" : "Default M4L-1",
 												"default" : 												{
+													"fontface" : [ 1 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -981,7 +982,6 @@
 														"proportion" : 0.39
 													}
 ,
-													"fontface" : [ 1 ],
 													"fontsize" : [ 11.0 ],
 													"fontname" : [ "Arial" ]
 												}
@@ -1170,7 +1170,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-81",
-					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"linecolor" : [ 0.764706, 0.764706, 0.764706, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1383,13 +1383,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-79",
-					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"linecolor" : [ 0.764706, 0.764706, 0.764706, 1.0 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 525.5, 695.0, 38.0, 6.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 50.0, 73.0, 5.0 ]
+					"presentation_rect" : [ 5.0, 53.0, 73.0, 5.0 ]
 				}
 
 			}
@@ -1782,7 +1782,9 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 9.0,
+					"activebgcolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
+					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
+					"fontname" : "Andale Mono",
 					"id" : "obj-6",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1814,7 +1816,9 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 9.0,
+					"activebgcolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
+					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
+					"fontname" : "Andale Mono",
 					"id" : "obj-3",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1966,10 +1970,13 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
 					"annotation" : "Qlist: Snapshots the current state of all parameters in the track, if the track was previously named. The name of the track is used as a target name for remote messages. The text content of the qlist can be copied and pasted into message boxes. Message: <qlist>.",
 					"automation" : "arm",
 					"automationon" : "trigger",
+					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
 					"fontface" : 0,
+					"fontname" : "Andale Mono",
 					"id" : "obj-30",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -2784,9 +2791,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -2795,9 +2802,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -2806,6 +2813,7 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2815,7 +2823,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ]
 								}
@@ -2944,7 +2951,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u742002552"
+					"varname" : "u278003748"
 				}
 
 			}
@@ -3614,9 +3621,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -3625,9 +3632,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -3636,6 +3643,7 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -3645,7 +3653,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ]
 								}
@@ -4680,9 +4687,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -4691,9 +4698,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -4702,6 +4709,7 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
+									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4711,7 +4719,6 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ]
 								}
@@ -4756,22 +4763,22 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Sets a name for the track. That name is also used as a receive name to control the parameters of the track. For instance, for a track named “MyTrack”, a message <; MyTrack gain -6.> will set the gain of that track to -6 dB.",
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"bgcolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
 					"border" : 1.0,
-					"bordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
-					"fontname" : "Arial",
+					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Andale Mono",
 					"fontsize" : 10.0,
 					"id" : "obj-4",
 					"keymode" : 1,
-					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 724.0, 216.0, 50.0, 15.0 ],
+					"patching_rect" : [ 724.0, 216.0, 73.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 63.0, 71.0, 15.0 ],
+					"presentation_rect" : [ 5.0, 58.0, 73.0, 16.0 ],
 					"rounded" : 0.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -4786,7 +4793,7 @@
 ,
 					"style" : "",
 					"text" : "channelName",
-					"textcolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1,
 					"varname" : "channelname"
 				}
@@ -4794,10 +4801,12 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
 					"activebgoncolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 					"annotation" : "Enables track solo. Message: <solo 1/0>. Solo-ed tracks can be of different types. A type can be set using the <@type name(symbol> attribute to the module’s patcher. If a type is specified, tracks of that type will react to solo commands from other tracks of the same type only. The default type is <generic>, and types can be set freely - e.g. <effect> or <input>…",
 					"automation" : "off",
 					"automationon" : "on",
+					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
 					"id" : "obj-114",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -4806,7 +4815,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 101.5, 481.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 238.0, 28.0, 18.0 ],
+					"presentation_rect" : [ 9.0, 237.0, 28.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -4829,9 +4838,12 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgoncolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
 					"annotation" : "Activates the audio of the track. Message: <active 1/0>.",
 					"automation" : "off",
 					"automationon" : "on",
+					"bordercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
+					"focusbordercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
 					"id" : "obj-115",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -4840,7 +4852,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 140.0, 481.0, 21.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 208.0, 28.0, 28.0 ],
+					"presentation_rect" : [ 9.0, 206.0, 28.0, 28.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -4868,15 +4880,16 @@
 					"clip_size" : 1,
 					"display_range" : [ -70.0, 24.0 ],
 					"fontface" : 0,
+					"fontname" : "Andale Mono",
 					"id" : "obj-116",
 					"maxclass" : "live.gain~",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 60.0, 377.0, 47.0, 100.0 ],
+					"patching_rect" : [ 60.0, 377.0, 60.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.0, 79.0, 34.0, 217.0 ],
+					"presentation_rect" : [ 37.0, 79.0, 44.0, 217.0 ],
 					"relative" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -4894,6 +4907,8 @@
 					}
 ,
 					"showname" : 0,
+					"textcolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
+					"tricolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "gain"
 				}
 
@@ -5220,19 +5235,19 @@
  ],
 		"parameters" : 		{
 			"obj-3" : [ "eq-active", "eq", 0 ],
+			"obj-4" : [ "channelname", "channelname", 0 ],
+			"obj-19::obj-18" : [ "amxd~", "amxd~", 0 ],
 			"obj-9::obj-56" : [ "audio-to", "audio-to", 0 ],
 			"obj-115" : [ "channel-active", "ch-active", 0 ],
-			"obj-9::obj-61" : [ "dac-channel", "dac-channel", 0 ],
-			"obj-5::obj-4" : [ "receive-name", "receive-name", 0 ],
-			"obj-9::obj-4" : [ "send-name", "receive-name", 0 ],
 			"obj-30" : [ "qlist", "Qlist", 0 ],
-			"obj-4" : [ "channelname", "channelname", 0 ],
-			"obj-5::obj-61" : [ "adc-channel", "adc-channel", 0 ],
 			"obj-5::obj-56" : [ "audio-from", "audio-from", 0 ],
 			"obj-116" : [ "gain", "Gain", 0 ],
+			"obj-9::obj-61" : [ "dac-channel", "dac-channel", 0 ],
+			"obj-9::obj-4" : [ "send-name", "receive-name", 0 ],
+			"obj-114" : [ "solo", "Solo", 0 ],
 			"obj-6" : [ "dyn-active", "dyn", 0 ],
-			"obj-19::obj-18" : [ "amxd~", "amxd~", 0 ],
-			"obj-114" : [ "solo", "Solo", 0 ]
+			"obj-5::obj-4" : [ "receive-name", "receive-name", 0 ],
+			"obj-5::obj-61" : [ "adc-channel", "adc-channel", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -5346,9 +5361,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -5357,9 +5372,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -5368,6 +5383,7 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
+					"fontface" : [ 1 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -5377,7 +5393,6 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial" ]
 				}
